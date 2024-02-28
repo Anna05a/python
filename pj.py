@@ -1,5 +1,5 @@
 def calculate_formula(x, a, b):
-    y = x**4 - x**2 - b/x - b * x**3 - x - a/x - a
+    y = ((x**4 - x**2 - b)/(x - b ))* ((x**3 - x - a)/(x - a))
     return y
 
 a = -10
